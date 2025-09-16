@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="top">
     <header class="header">
         <div class="namediv">
-            <a class="name" href="#">&lt;SD&gt;</a>
+            <a class="name" href="#top">&lt;SD&gt;</a>
         </div>
         <div class="navbar">
-            <a class="tag" href="#">Skills</a>
-            <a class="tag" href="#">Experience</a>
-            <a class="tag" href="#">Projects</a>
-            <a class="tag" href="#">About</a>
-            <a href="#">Contact</a>
+            <a class="tag" href="#skillid">Skills</a>
+            <a class="tag" href="#expid">Experience</a>
+            <a class="tag" href="#projectid">Projects</a>
+            <a class="tag" href="#aboutid">About</a>
+            <a href="#contactid">Contact</a>
         </div>
         <div class="btndiv">
             <a class="btn" href="#"><i class="fa-solid fa-circle-half-stroke"></i></a>
@@ -32,7 +32,7 @@
         <p>Computer Science UnderGraduate</p></div>
         </div>
     </div>
-    <div class="skillsbox">
+    <div id="skillid" class="skillsbox">
         <div class="box">
             <div>
                 <h2>Skills</h2>
@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>  
-    <div class="skillsbox">
+    <div id="expid" class="skillsbox">
         <div class="box">
             <div>
                 <h2>Experience</h2>
@@ -86,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="skillsbox">
+    <div id="projectid" class="skillsbox">
         <div class="box">
             <div>
                 <h2>Projects</h2>
@@ -113,7 +113,7 @@
             </div>
         </div>
     </div>
-    <div class="skillsbox">
+    <div id="aboutid" class="skillsbox">
         <div class="box">
             <div>
                 <h2>About</h2>
@@ -137,30 +137,35 @@
             </div>
         </div>
     </div>
-    <div class="skillsbox">
+    <div id="contactid" class="skillsbox">
         <div class="box">
             <div>
                 <h2>Contact</h2>
                 <hr>
                 <h4>
-                    <ul>
-                        <li>
-                   You can reach me at <div class="txtcol">shrijal.dubey@example.com</div>
-                    <br>
-                    </li>
-                    <li>
-                    I’m also active on LinkedIn and GitHub, where I share my projects and coding work.
-                    </li>
-                    <li>
-                    Based in Ahmedabad, India, I’m always open to connecting, collaborating, and learning from others in tech.
-                    </li>
-                    </ul>
-                   <br> <button class="cntme">Contact Me!</button>
+                    <div class="sub-cont">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="sub-form">
+                            <div>
+                                <h3>Let's Get In Touch</h3>
+                            </div>
+                            <input type="hidden" name="access_key" value="cac88399-03da-4a84-ac42-e7f310c478f6">
+                            <input type="text" placeholder="Enter Your Name" name="name" class="name-form" required>
+                            <input type="email" placeholder="Enter Your Email" name="email" class="name-form" required>
+                            <textarea name="message" placeholder="Your Message" class="message-form name-form" required></textarea>
+                            <button type="submit" class="cntme">Submit</button>
+                        </form>
+                    </div>
                 </h4>
             </div>
         </div>
     </div>
+    <div id="footerdiv">
+        <footer id="foot">
+            <div id="text">
+                <p>&copy; 2025 Shrijal Dubey. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
