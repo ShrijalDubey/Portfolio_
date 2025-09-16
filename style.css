@@ -237,7 +237,7 @@ h4 {
     color: #FFD700;
 }
 
-<<<<<<< HEAD
+
 #footerdiv {
     height: 200px;
     align-items: center;
@@ -254,10 +254,7 @@ h4 {
 .body {
     scroll-margin-top: 80px;
 }
-=======
 
-
->>>>>>> 3d89d5b59dabbd9c0c4045f7eaaf085b6fcbd2a0
 
 
 
@@ -295,6 +292,7 @@ display: flex;
     padding-top: 15px;
     border-radius: 20px;
     font-size: 23px;
+    font-weight: 600;
 }
 
 .name-form::placeholder {
