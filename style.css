@@ -254,6 +254,9 @@ h4 {
 .body {
     scroll-margin-top: 80px;
 }
+.link_txt {
+    margin-top: 30px;
+}
 
 
 
@@ -360,4 +363,19 @@ body.light-mode .maintext {
 }
 body.light-mode .name-form {
     background-color: rgb(193, 192, 192);
+}
+.visit_btn {
+    height: 25px;
+    width: 80px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    
+}
+.visit_anc {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
 }
